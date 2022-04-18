@@ -1,1 +1,1 @@
-This a team project with Kaleb 
+This a team project with Lavender Otieno
