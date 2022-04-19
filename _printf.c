@@ -31,11 +31,23 @@ int run_printf(const char *format, va_list args, buffer_t *output)
 	int i, wid, prec, ret = 0;
 	char tmp;
 	unsigned char flags, len;
+<<<<<<< HEAD
 /**
  * int - takes integer value
  * @f: pointer
  * Return: integer
  */
+=======
+
+
+	/**
+	 * int - takes integer value
+	 * @f: pointer
+	 * Return: integer
+	 */
+
+
+>>>>>>> 3d6c5e686fcb616bf0411a01586116155b45f091
 	unsigned int (*f)(va_list, buffer_t *,
 			unsigned char, int, int, unsigned char);
 
